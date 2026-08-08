@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3704804296517204262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9106625543275182779}
+  - component: {fileID: 2503100264241670037}
+  - component: {fileID: 5801837644999115664}
+  m_Layer: 0
+  m_Name: CarcaGameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &9106625543275182779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3704804296517204262}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.26392, y: 0, z: 2.28186}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2503100264241670037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3704804296517204262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a75b41f81aad9438a84452d9d31a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Network.CarcaGameManager
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0.02
+  _tileSize: 2
+  currentMode: 1
+  botDifficulty: 1
+  _defaultPrefab: {fileID: 4674154594762328205, guid: d9ed0c4569d2e3a4c9852e2088e122b9, type: 3}
+  _tilePrefabs:
+  - tileName: Tile1_Monastery_
+    prefab: {fileID: 6218911900267128823, guid: eaa87d79863870f4591f046bc018ec7c, type: 3}
+  - tileName: Tile2_MonasteryRoad_
+    prefab: {fileID: 642827066826371943, guid: c6d1eb34d358bec438a5d0df7ba02561, type: 3}
+  - tileName: Tile3_FullCityShield_
+    prefab: {fileID: 2131994034601237081, guid: fca8c8f8a9af7b4429cd734bf44823b4, type: 3}
+  - tileName: Tile5_City3Shield_
+    prefab: {fileID: 4934175526984134094, guid: c02aee7fe127ed849b438da7c62529f2, type: 3}
+  - tileName: Tile6_City3_
+    prefab: {fileID: 5109423622166029527, guid: 8955344661f17364b8382efd5ee3dcd7, type: 3}
+  - tileName: Tile7_City3RoadShield_
+    prefab: {fileID: 4297411717891279428, guid: 63a56b944fa4bea4ab9a05b3936d8731, type: 3}
+  - tileName: Tile8_City3Road_
+    prefab: {fileID: 6661678200288369200, guid: 67903325432dbe44eb8d422e2c0ff85b, type: 3}
+  - tileName: Tile9_CornerShield_
+    prefab: {fileID: 1132314433725458806, guid: 5dcb5e43c3aa8804bb4f38581497c275, type: 3}
+  - tileName: Tile10_Corner_
+    prefab: {fileID: 1993745832421029505, guid: 2ae5ace993a944547bcbd1f081ec3ff5, type: 3}
+  - tileName: Tile11_CornerRoadShield_
+    prefab: {fileID: 8127203644947541439, guid: 29632cb626311f848b58b9c8fd4b9f39, type: 3}
+  - tileName: Tile12_CornerRoad_
+    prefab: {fileID: 6473730955976431493, guid: afc679be6c785774cb804ab5895a989e, type: 3}
+  - tileName: Tile13_TubeShield_
+    prefab: {fileID: 1362730038870324935, guid: 7b36c62074bdc734ab725b923d8656a4, type: 3}
+  - tileName: Tile14_Tube_
+    prefab: {fileID: 4679276038684946122, guid: e71910e816242a24d85efe302dde43f8, type: 3}
+  - tileName: Tile15_TwoCitiesAdj_
+    prefab: {fileID: 582799363154672435, guid: 7eeb75664f9fdd4468f79f4a8e2de37d, type: 3}
+  - tileName: Tile16_TwoCitiesOpp_
+    prefab: {fileID: 3981642631716199344, guid: 539235266a8d15a4ebe449b10594cc64, type: 3}
+  - tileName: Tile17_CityCap_
+    prefab: {fileID: 1862848376451126763, guid: 0c34aef7af03a5348af5aad587e2fd2c, type: 3}
+  - tileName: Tile18_CapCurveWS_
+    prefab: {fileID: 1024936743960025896, guid: 921b7e3c4f1e08246ada905447d007c8, type: 3}
+  - tileName: Tile19_CapCurveSE_
+    prefab: {fileID: 4487525562437169449, guid: a6348eee4082fed469545e519cf55de1, type: 3}
+  - tileName: Tile20_CapCross3_
+    prefab: {fileID: 8200097102239993437, guid: ef2c74b7e6ceb21479419c7209b1b849, type: 3}
+  - tileName: Tile21_CapStraight_
+    prefab: {fileID: 4674154594762328205, guid: d9ed0c4569d2e3a4c9852e2088e122b9, type: 3}
+  - tileName: Tile22_StraightRoad_
+    prefab: {fileID: 5815068607270161900, guid: 945d0410ea664b043b1deab5f9ada79a, type: 3}
+  - tileName: Tile23_RoadTurn_
+    prefab: {fileID: 1223977806279933231, guid: 4fdff7b57d3f56d479ac4af5eb2d13dc, type: 3}
+  - tileName: Tile24_Cross3_
+    prefab: {fileID: 912839308658997848, guid: 28a38e02388c0a642b7d3c4705ebfd1a, type: 3}
+  - tileName: Tile25_Cross4_
+    prefab: {fileID: 4632083459692794995, guid: 4d0ccdd7908dbe447aaa6a8efc20da9c, type: 3}
+  _meeplePrefab: {fileID: 7306271537548816326, guid: 07d54d42237f175429001af6adaf5688, type: 3}
+  _abbotPrefab: {fileID: 1869012395823827990, guid: 8bd411a021ad7d34bbf25d991c7c8ee9, type: 3}
+  _floatingScoreTextPrefab: {fileID: 3108762705247287591, guid: c3f35aecb8660604da5a03474bbc5727, type: 3}
+  _tileDustVFX: {fileID: 1943662384577447886, guid: e51d133d1208d95419860a443c6e55db, type: 3}
+  meepleDustVFX: {fileID: 1946182534318289015, guid: 6342ce23b81fed8448b9b844e296994d, type: 3}
+  BotScore: 0
+  BotMeeples: 7
+  BotHasAbbot: 1
+  isGameStarted: 0
+  currentTurnPlayerToken: 
+  currentPhase: 0
+  currentTileId: 
+  IsBotThinking: 0
+  netBotTotalSims: 0
+  netBotBestWinRate: 0
+  netBotBestMoveCoord: '-'
+  isGameFinished: 0
+--- !u!114 &5801837644999115664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3704804296517204262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Mirror::Mirror.NetworkIdentity
+  sceneId: 0
+  _assetId: 238891836
+  serverOnly: 0
+  visibility: 0
+  hasSpawned: 0

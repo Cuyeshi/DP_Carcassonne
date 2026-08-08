@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &89116476533335345
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: cac6198561f707f4d852805af0952fdc, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      propertyPath: m_Name
+      value: Meeple_red
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7752764197556057904}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3598439856194835261}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3261718395678212703}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -302431812281927398}
+  m_SourcePrefab: {fileID: 100100000, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+--- !u!1 &1008229242366482528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8aa4fc65890587a4ebe71cd90fb34f85, type: 3}
+  m_PrefabInstance: {fileID: 89116476533335345}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7752764197556057904
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008229242366482528}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.049771633, y: 0.02, z: 0.04988864}
+  m_Center: {x: 0, y: 9.313224e-10, z: 6.617445e-24}
+--- !u!114 &3598439856194835261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008229242366482528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Mirror::Mirror.NetworkIdentity
+  sceneId: 0
+  _assetId: 1275798545
+  serverOnly: 0
+  visibility: 0
+  hasSpawned: 0
+--- !u!114 &3261718395678212703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008229242366482528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d56c2f037125340a78242303ed2476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.View.MeepleView
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  MeepleColor: {r: 1, g: 1, b: 1, a: 1}
+  dropHeight: 5
+  dropDuration: 0.5
+--- !u!114 &-302431812281927398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008229242366482528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29670390f8f9d24d8dbaaca4e7db20c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.View.MeepleAliveAnim
+  minWaitTime: 5
+  maxWaitTime: 15
+  jumpHeight: 0.15
+  jumpDuration: 0.3
+  maxLookAngle: 30
